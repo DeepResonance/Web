@@ -1,0 +1,47 @@
+﻿* {
+    margin: 0;
+}
+
+body {
+    background-image: url(https://img3.akspic.ru/image/106662-nebo-voda-priroda-otrazhenie-dikaya_mestnost-1920x1200.jpg);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+div.content-center {
+    max-width: 750px;
+    min-width: 500px;
+    margin: 0 50px;
+    background-color: aqua;
+    border: 2px black solid;
+    border-radius: 15px;
+    padding: 100px 0;
+}
+header
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 30px;
+}
+header>a
+{
+    text-decoration: none;
+    color: mediumpurple;
+}
+header>a:active
+{
+    color: blueviolet;
+    outline-width: 10px;
+}
+header>a:hover
+{
+     text-decoration-line: underline;
+     text-decoration-color: blue;
+}
+main>section#s1>article>p
+{
+    margin: 35px 70px 0;
+    color: forestgreen;
+}
