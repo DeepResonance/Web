@@ -2,46 +2,69 @@
     margin: 0;
 }
 
-body {
-    background-image: url(https://img3.akspic.ru/image/106662-nebo-voda-priroda-otrazhenie-dikaya_mestnost-1920x1200.jpg);
-    background-size: 100%;
-    display: flex;
-    justify-content: center;
-    font-size: 25px;
+section {
+    display: grid;
 }
 
-div.content-center {
-    max-width: 750px;
-    min-width: 500px;
-    margin: 0 50px;
-    background-color: aqua;
-    border: 2px black solid;
-    border-radius: 15px;
-    padding: 100px 0;
-}
-header
-{
+article {
     display: flex;
+    margin-bottom: 15px;
+}
+
+article div{
+    padding: 50px;
+    margin: 5px;
+    background-color: aqua;
+}
+
+.a1 {
+    flex-direction: row;
+}
+
+.a2 {
+    flex-direction: row-reverse;
+}
+
+.a3 {
+    flex-direction: column;
+}
+
+.a4 {
+    flex-direction: column-reverse;
+}
+
+.a5 {
+    flex-wrap: wrap;
+}
+
+.a6 {
+    flex-wrap: wrap-reverse;
+}
+
+.a7 {
+    flex-wrap: nowrap;
+}
+
+.a8 {
+    justify-content: flex-start;
+}
+
+.a9 {
+    justify-content: flex-end;
+}
+
+.a10 {
+    justify-content: center;
+}
+
+.a11 {
+    justify-content: space-between;
+}
+
+.a12 {
     justify-content: space-around;
-    margin: 0 30px;
 }
-header>a
-{
-    text-decoration: none;
-    color: mediumpurple;
-}
-header>a:active
-{
-    color: blueviolet;
-    outline-width: 10px;
-}
-header>a:hover
-{
-     text-decoration-line: underline;
-     text-decoration-color: blue;
-}
-main>section#s1>article>p
-{
-    margin: 35px 70px 0;
-    color: forestgreen;
+
+.a13 {
+    justify-content: space-evenly;
 }
